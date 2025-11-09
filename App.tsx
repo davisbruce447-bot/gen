@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Header } from './components/Header';
 import { ImageForm } from './components/ImageForm';
@@ -70,7 +69,7 @@ const App: React.FC = () => {
               Create Your Image
             </h2>
             <p className="text-gray-400">
-              Describe the image you want to create, select a model, and let the AI bring your vision to life. This frontend triggers an n8n workflow that uses the Stable Horde distributed cluster.
+              Describe the image you want to create, select a model, and let DreamForge bring your vision to life.
             </p>
             <ImageForm
               models={models}

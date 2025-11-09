@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SparklesIcon } from './icons/SparklesIcon';
 
@@ -9,7 +8,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center space-x-3">
           <SparklesIcon className="w-8 h-8 text-indigo-400" />
           <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">
-            Stable Horde Image Generator
+            DreamForge
           </h1>
         </div>
       </div>
